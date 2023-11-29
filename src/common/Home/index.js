@@ -1,8 +1,13 @@
 import React from 'react'
+import { BigBox, MainText } from './styled'
+import CattegoryBox from './CattegoryBox'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <BigBox>
+      <CattegoryBox/>
+      <MainText>New videos</MainText>
+    </BigBox>
   )
 }
 
